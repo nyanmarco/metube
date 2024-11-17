@@ -1,0 +1,241 @@
+<html><head><base href="https://www.metube.com">
+<title>MeTube - Your Digital Video Repository</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #e4e4e4;
+  padding: 5px;
+  border-bottom: 1px solid #999;
+}
+
+#logo {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#logo span:first-child {
+  color: #cc0000;
+}
+
+#slogan {
+  font-size: 13px;
+  color: #666;
+  margin-left: 10px;
+}
+
+#tagline {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#search {
+  width: 300px;
+  height: 22px;
+  border: 1px solid #999;
+  padding: 2px;
+  font-size: 13px;
+}
+
+.submit-btn {
+  background-color: #ccc;
+  border: 1px solid #999;
+  padding: 2px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.featured {
+  width: 425px;
+  margin: 0 auto;
+  border: 1px solid #999;
+  padding: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+.video-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.video-stats {
+  font-size: 11px;
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
+
+.upload-btn {
+  background-color: #ffaa00;
+  color: #fff;
+  padding: 3px 10px;
+  border: 1px solid #cc8800;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.recent-videos {
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+  border: 1px solid #999;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.recent-video-item {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.forum-posts {
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 1px solid #999;
+}
+
+.forum-post {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 11px;
+}
+
+.forum-title {
+  background-color: #eee;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div id="logo">
+    <img src="https://i.postimg.cc/Gtj9n56V/2024-11-17-000-Kleki.png" width="95" height="40">
+    <span id="slogan">The future is so yesterday!</span>
+    <div style="float: right;">
+      <a href="https://www.metube.com/signup" class="upload-btn">Upload Video</a>
+    </div>
+  </div>
+</div>
+
+<div id="tagline">
+  Share your videos with friends, family, and the world
+</div>
+
+<div class="search-box">
+  <form action="https://www.metube.com/results" method="get">
+    <input type="text" id="search" name="search">
+    <input type="submit" value="Search" class="submit-btn">
+  </form>
+</div>
+
+<div class="content-wrapper">
+  <div class="featured">
+    <div style="background-color: #eee; padding: 5px;">
+      Featured Videos
+    </div>
+    <div style="padding: 10px;">
+      <div class="video-box">
+        <svg width="425" height="350" style="background-color: #000;">
+          <video width="320" height="240" controls>
+  <source src="movie.mp4"
+</video>
+        </svg>
+        <div class="video-title">
+          My First Video Blog
+        </div>
+        <div class="video-stats">
+          Added: May 15, 2011 | Views: 1,324
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="recent-videos">
+    <div class="forum-title">Recently Uploaded</div>
+    <div class="recent-video-item">
+      <div class="video-title">MePhone 4 Unboxing</div>
+      <div class="video-stats">By: MePhone3GS | Views: 892</div>
+    </div>
+    <div class="recent-video-item">
+      <div class="video-title">OJ's Daily Vlog #45</div>
+      <div class="video-stats">By: OrangeJuice | Views: 456</div>
+    </div>
+    <div class="recent-video-item">
+      <div class="video-title">Paper Airplane Tutorial</div>
+      <div class="video-stats">By: Paper | Views: 1,203</div>
+    </div>
+    <div class="recent-video-item">
+      <div class="video-title">Salt & Pepper's Cooking Show</div>
+      <div class="video-stats">By: Condiments4Life | Views: 677</div>
+    </div>
+  </div>
+
+  <div class="forum-posts">
+    <div class="forum-title">Recent Forum Posts</div>
+    <div class="forum-post">
+      <b>MePhone4:</b> Just released the new MeOS 1.0! Check out my video review!<br>
+      <small>Posted: 2 hours ago</small>
+    </div>
+    <div class="forum-post">
+      <b>Pickle:</b> Anyone want to collaborate on a video?<br>
+      <small>Posted: 4 hours ago</small>
+    </div>
+    <div class="forum-post">
+      <b>Paintbrush:</b> Art tutorial coming soon!<br>
+      <small>Posted: Yesterday</small>
+    </div>
+    <div class="forum-post">
+      <b>Balloon:</b> Having trouble uploading... keeps saying I'm too light?<br>
+      <small>Posted: Yesterday</small>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Copyright © 2011 Meeple Inc. | <a href="https://www.metube.com/terms">Terms of Use</a> | <a href="https://www.metube.com/privacy">Privacy Policy</a> | <a href="https://www.metube.com/help">Help</a>
+</div>
+
+<script>
+document.querySelector('.submit-btn').addEventListener('click', function(e) {
+  if(document.getElementById('search').value.trim() === '') {
+    e.preventDefault();
+    alert('Please enter a search term');
+  }
+});
+</script>
+
+</body></html>
