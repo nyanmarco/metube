@@ -1,0 +1,220 @@
+<html><head><base href="." />
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    background: linear-gradient(to bottom, #fff, #f2f2f2);
+  }
+
+  .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin-bottom: 60px;
+  }
+
+  .gallery-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .gallery-item {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #fefefe, #f5f5f5);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  .placeholder-text {
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .status-text {
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+  }
+
+  .gallery-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to bottom, 
+      rgba(255,255,255,0.3),
+      rgba(255,255,255,0.1)
+    );
+    pointer-events: none;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+
+
+  .apple-logo {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 20px;
+  }
+
+  .apple-logo svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+  }
+
+  .apple-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom,
+      rgba(255,255,255,0.4),
+      rgba(255,255,255,0.1)
+    );
+    border-radius: 2px 2px 0 0;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+  <div class="heading">Currently Alive Meeple Products, Termination in process</div>
+  
+  <div class="gallery">
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/gJ8pTKS5/2024-12-10-0kj-Kleki-2.png width="140 height="140">
+      </div>
+      <span class="status-text">MePhone15 Pro</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/ZqLFxkZD/2024-12-10-0kj-Kleki-4.png width="140 height="140">
+      </div>
+      <span class="status-text">MePhone SE1</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+      <img src="https://i.postimg.cc/vmG5BP97/2024-12-10-0kj-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePhone 6s</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+         <img src="https://i.postimg.cc/qvxjj6xL/2024-12-10-0k8-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Touch (4th Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/J41yjytm/2024-12-10-0k7-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Touch (3rd Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/FKjmPZn6/2024-12-10-0ot-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Touch (2nd Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+      <img src="https://i.postimg.cc/R03JqjhH/2024-12-10-0k3-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePhone3G (Alternate)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+         <img src="https://i.postimg.cc/KzR66D9F/2024-12-10-0kj-Kleki-1.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Touch (1st Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/X7Qg56jH/2024-12-10-0kk-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Classic (6th Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/SRmWXDwb/2024-12-10-0km-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePod Nano (4th Gen)</span>
+    </div>
+    <div class="gallery-item-container">
+      <div class="gallery-item">
+         <img src="https://i.postimg.cc/fyH0VZcY/2024-12-10-0jz-Kleki-1.png width="140 height="140">
+      </div>
+      <span class="status-text">MePhone2G (Alternate)</span>
+    </div>
+       <div class="gallery-item-container">
+      <div class="gallery-item">
+         <img src="https://i.postimg.cc/jqJH5nmj/2024-12-11-004-Kleki.png width="140 height="140">
+      </div>
+      <span class="status-text">MePad (1st Gen) (Alternate)</span>
+    </div>
+
+  <footer class="footer">
+    <a href="https://nyanmarco.github.io/metube/3g">Terms of Use</a>
+    <a href="https://nyanmarco.github.io/metube/">Privacy Policy</a>
+    <a href="https://nyanmarco.github.io/metube/">Help</a>
+    <div class="apple-logo">
+      <img src=https://i.postimg.cc/P5pxT1PX/2024-12-10-11s-Kleki.png width="20" height="25"/>
+      </png>
+    </div>
+  </footer>
+</body></html>
